@@ -7,7 +7,7 @@ class NewAccount extends StatefulWidget {
 }
 
 class _NewAccountState extends State<NewAccount> {
-  //**ADD Firebase Auth Part 1**//
+  //**Firebase Auth Part 1**//
   String email = "";
   String password = "";
   final FirebaseAuth _auth = FirebaseAuth.instance;
