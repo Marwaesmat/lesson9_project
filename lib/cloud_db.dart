@@ -26,7 +26,7 @@ class _CloudDB extends State<CloudDB> {
         ),
         body: Center(
           child: Container(
-            //**ADD Cloud Firestore Part 2 HERE**//
+            //**Cloud Firestore Part 2**//
 
             child: StreamBuilder(
               stream: FirebaseFirestore.instance
