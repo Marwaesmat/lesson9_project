@@ -11,6 +11,7 @@ import 'firebase_options.dart';
 
 
 void main()
+  //** Initialize an instance from Firebase **//
 async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
